@@ -1,3 +1,40 @@
+<script>
+	const features = [
+		{
+			title: 'Maksymalna automatyzacjia',
+			desc: [
+				'Każda funkcja w Oglo to dedykowane narzędzie stworzone z myślą o Twojej wygodzie i maksymalnej automatyzacji. ',
+				'Bez względu na to, czy chcesz ułatwić sobie sprzedaż na Allegro, czy Olx - zapewniamy zaawansowane rozwiązanie wspierające Twoje działania e-commerce.'
+			],
+			icon: ''
+		},
+		{
+			title: 'Zarządzanie stanami i cenami',
+			desc: [
+				'Brak kontroli nad stanami magazynowymi, czy cenami na poszczególnych kanałach sprzedaży - to prosta droga do ustąpienia miejsca konkurentom.',
+				'Dzisiaj jedyny sens ma zautomatyzowane zarządzanie stanami i cenami - a Oglo to narzędzie mistrzowsko przygotowane do tego zadania.'
+			],
+			icon: ''
+		},
+		{
+			title: 'Raporty i analizy',
+			desc: [
+				'Wzbogaciliśmy Oglo o funkcjonalności pozwalające na raporty i analizy.',
+				'W naszym systemie raporty są generowane na podstawie wszystkich danych, które trafiają na konto użytkownika.'
+			],
+			icon: ''
+		},
+		{
+			title: 'Dbamy o dobrostan społeczności',
+			desc: [
+				'Wspieramy materialnie i fizycznie społeczne projekty edukacyjne i organizacje non-profit.',
+				'Wybierając nasze usługi - przyczyniasz się również do pozytywnych zmian w społeczności.'
+			],
+			icon: ''
+		}
+	];
+</script>
+
 <section class="bg-primary">
 	<div class="container mx-auto px-6 py-10">
 		<div class="lg:flex lg:items-center">
@@ -8,7 +45,7 @@
 					<h2
 						class="max-w-3xl text-2xl  font-bold leading-none tracking-tighter text-neutral-200 md:text-5xl lg:max-w-5xl lg:text-4xl"
 					>
-						Lorem ipsum dolor <br /> sit amet consectetur
+						Poznaj możliwości <br /> <img class="h-20 w-auto" src="./images/logo.svg" alt="Logo" />
 					</h2>
 
 					<div class="mt-2">
@@ -18,9 +55,51 @@
 					</div>
 				</div>
 
-				<div class="md:-mx-4 md:flex md:items-start">
-					<span class="inline-block rounded-xl bg-secondary p-2 text-primary md:mx-4">
-						<svg
+				{#each features as feature}
+					<div class="md:-mx-4 md:flex md:items-start">
+						<span class="inline-block rounded-xl bg-secondary p-2 text-primary md:mx-4">
+							<img src="./images/features/{feature.icon}" alt="Icon of {feature.title}" />
+
+							<!-- <svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-6 w-6"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+							/>
+						</svg> -->
+						</span>
+
+						<div class="mt-4 md:mx-4 md:mt-0">
+							<h1 class="text-xl font-semibold capitalize text-gray-700 dark:text-white">
+								{feature.title}
+							</h1>
+							{#each feature.desc as desc}
+								<p class="my-1 text-gray-300">
+									{desc}
+								</p>
+							{/each}
+						</div>
+					</div>
+				{/each}
+			</div>
+
+			<div class="hidden lg:flex lg:w-1/2 lg:items-center lg:justify-center">
+				<img
+					class="h-[28rem] w-[28rem] rounded-full object-cover xl:h-[34rem] xl:w-[34rem]"
+					src="./images/features.svg"
+					alt=""
+				/>
+			</div>
+		</div>
+
+		<!-- <svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6"
 							fill="none"
@@ -34,25 +113,9 @@
 								d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
 							/>
 						</svg>
-					</span>
 
-					<div class="mt-4 md:mx-4 md:mt-0">
-						<h1 class="text-xl font-semibold capitalize text-gray-700 dark:text-white">
-							Copy & paste components
-						</h1>
 
-						<p class="mt-3 text-gray-500 dark:text-gray-300">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-							dignissimos vel non corrupti doloribus voluptatum eveniet
-						</p>
-					</div>
-				</div>
-
-				<div class="md:-mx-4 md:flex md:items-start">
-					<span
-						class="inline-block rounded-xl bg-blue-100 p-2 text-blue-500 dark:bg-blue-500 dark:text-white md:mx-4"
-					>
-						<svg
+          <svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6"
 							fill="none"
@@ -66,25 +129,8 @@
 								d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
 							/>
 						</svg>
-					</span>
 
-					<div class="mt-4 md:mx-4 md:mt-0">
-						<h1 class="text-xl font-semibold capitalize text-gray-700 dark:text-white">
-							Zero Configuration
-						</h1>
-
-						<p class="mt-3 text-gray-500 dark:text-gray-300">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-							dignissimos vel non corrupti doloribus voluptatum eveniet
-						</p>
-					</div>
-				</div>
-
-				<div class="md:-mx-4 md:flex md:items-start">
-					<span
-						class="inline-block rounded-xl bg-blue-100 p-2 text-blue-500 dark:bg-blue-500 dark:text-white md:mx-4"
-					>
-						<svg
+            <svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-6 w-6"
 							fill="none"
@@ -104,29 +150,8 @@
 								d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
 							/>
 						</svg>
-					</span>
 
-					<div class="mt-4 md:mx-4 md:mt-0">
-						<h1 class="text-xl font-semibold capitalize text-gray-700 dark:text-white">
-							elegant Dark Mode
-						</h1>
-
-						<p class="mt-3 text-gray-500 dark:text-gray-300">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-							dignissimos vel non corrupti doloribus voluptatum eveniet
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="hidden lg:flex lg:w-1/2 lg:items-center lg:justify-center">
-				<img
-					class="h-[28rem] w-[28rem] rounded-full object-cover xl:h-[34rem] xl:w-[34rem]"
-					src="./images/features.svg"
-					alt=""
-				/>
-			</div>
-		</div>
+          -->
 
 		<!-- <hr class="my-12 border-gray-200 dark:border-gray-700" /> -->
 
