@@ -2,6 +2,10 @@
 	import { Faq, Features, Hero, About, Pricing, Contact, Community, Footer } from '../lib/widgets/';
 </script>
 
+<svelte:head>
+	<title>Oglo E-commerce</title>
+</svelte:head>
+
 <!-- hero  -->
 <Hero />
 
