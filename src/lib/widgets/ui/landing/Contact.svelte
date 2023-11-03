@@ -1,12 +1,12 @@
 <section class="z-0 bg-primary">
 	<div class="container mx-auto grid gap-8 px-6 py-12 lg:grid-cols-3">
 		<div>
-			<p class="font-medium text-secondary  ">Skontaktuj się z nami</p>
+			<p class="font-medium text-secondary  ">Znajdź pomoc wdrożeniową</p>
 
 			<h2
 				class="max-w-3xl text-2xl  font-bold leading-none tracking-tighter text-neutral-200 md:text-5xl lg:max-w-5xl lg:text-4xl"
 			>
-				Chcielibyśmy poznać Twoje zdanie
+				Potrzebujesz wsparcia przy wdrożeniu
 			</h2>
 
 			<p class="mt-3 text-gray-400">Nasz przyjazny zespół jest zawsze gotowy do rozmowy.</p>
