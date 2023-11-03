@@ -2,38 +2,42 @@
 	const faqData = [
 		{
 			question: 'Jakie edukacyjne  społeczne projekty wspieramy?',
+			answer: '44Games, Yellow elephant, 44FabLab'
+		},
+		{
+			question: 'Czy można przetestować system za darmo?',
 			answer:
-				'44Games, Yellow elephant, 44FabLab'
+				'Możesz przetestować Apilo za darmo i bez zobowiązań jeśli jesteś sklepem ekonomii społecznej.  Zapraszamy do rejestracji.'
 		},
 		{
 			question: 'Czym jest wasza platforma?',
 			answer:
 				'Nasza platforma łączy w sobie funkcje sklepu internetowego i automatycznej publikacji ogłoszeń na olx.'
 		},
+		// {
+		// 	question: 'Szybka aktualizacja danych',
+		// 	answer:
+		// 		'Apilo wyróżnia się szybkością działania – może ekspresowo aktualizować zamówienia, a stany magazynowe co 5-10 minut. Tak szybka aktualizacja daje każdemu użytkownikowi większą kontrolę nad e-sprzedażą w wielu kanałach.'
+		// },
+		// {
+		// 	question: 'Dostępność pod wszystkie urządzenia',
+		// 	answer:
+		// 		'Oglo jako innowacyjne narzędzie do zarządzania sprzedażą zostało w pełni dostosowane do wszystkich urządzeń, z których korzysta przedsiębiorca XXI wieku. Można korzystać z funkcjonalności platformy poprzez: desktop, tablet, smartfon.'
+		// },
 		{
-			question: 'Lorem ipsum is placeholder',
+			question: 'Czy poradzę sobie z konfiguracją?',
 			answer:
-				''
+				'Konfiguracja Oglo nie wymaga żadnej znajomości programistycznej. Podłączenie kanałów sprzedaży jest proste i szybkie, a jeśli nawet pojawią się jakiekolwiek pytania – służymy pomocą.'
 		},
 		{
-			question: 'Lorem ipsum is placeholder',
+			question: 'Open-source i filozofia projektu',
 			answer:
-				''
+				'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.'
 		},
 		{
-			question: 'Lorem ipsum is placeholder',
+			question: 'Jeśli nie mam sklepu w internetowiego czy warto używać Oglo?',
 			answer:
-				''
-		},
-		{
-			question: 'Lorem ipsum is placeholder',
-			answer:
-				''
-		},
-		{
-			question: 'Lorem ipsum is placeholder',
-			answer:
-				''
+				'Tak, nasza platforma pełni funkcję zarówno sklepu internetowego, jak i platformy do automatyzacji publikacji ogłoszeń.'
 		}
 	];
 </script>
