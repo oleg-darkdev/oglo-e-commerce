@@ -6,11 +6,11 @@
 	<div class="container mx-auto px-6 py-8">
 		<div class="flex flex-col items-center text-center">
 			<a href="#">
-				<img class="h-40 w-auto" src="./images/logo.svg" alt="Logo" />
+				<img class="h-40 w-auto" src="./images/logo.svg" alt="Logo oglo" />
 			</a>
 
 			<p class="mx-auto mt-4 max-w-md text-gray-400">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Oglo - to system do zarządzania sprzedażą wielokanałową opracowany przez i dla społeczności.
 			</p>
 
 			<div class="mt-4 flex flex-col sm:flex-row sm:items-center sm:justify-center">
@@ -31,16 +31,15 @@
 						/>
 					</svg>
 
-					<span class="mx-1">View Demo</span>
+					<span class="mx-1">Wersję demonstracyjną</span>
 				</a>
 
 				<button
 					class="w-full transform rounded-md bg-secondary px-5 py-2 text-sm capitalize tracking-wide text-white transition-colors duration-300 hover:bg-none   focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:order-2 sm:mx-2 sm:w-auto"
-					>Get started</button
+					>Rozpocznij</button
 				>
 			</div>
 		</div>
-	
 
 		<hr class="my-6 border-yellow-500" />
 
@@ -48,20 +47,20 @@
 			<p class="text-sm text-secondary">© Copyright 2021. All Rights Reserved.</p>
 
 			<div class="-mx-2 mt-3 flex sm:mt-0">
-				<a
+				<!-- <a
 					href="#"
 					class="mx-2 text-sm  text-secondary transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>
 					Teams
-				</a>
+				</a> -->
 
 				<a
 					href="#"
 					class="mx-2 text-sm  text-secondary transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>
-					Privacy
+					Ochrona prywatności
 				</a>
 
 				<a
@@ -69,7 +68,7 @@
 					class="hover: mx-2 text-sm text-gray-500 text-secondary transition-colors duration-300 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>
-					Cookies
+					Pliki cookie
 				</a>
 			</div>
 		</div>
