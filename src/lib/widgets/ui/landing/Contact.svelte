@@ -61,5 +61,13 @@
 				<p class="mt-2 text-sm text-secondary">+48 662 290 677</p>
 			</div>
 		</div>
+
+		<div class="hidden lg:flex lg:w-1/2 lg:items-center lg:justify-center mx-auto">
+			<img
+				class="h-[14rem] w-[14rem] rounded-full object-cover "
+				src="./images/support.svg"
+				alt=""
+			/>
+		</div>
 	</div>
 </section>
