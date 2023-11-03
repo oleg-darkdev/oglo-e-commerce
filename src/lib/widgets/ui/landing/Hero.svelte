@@ -33,7 +33,7 @@
 			<div class="lg:flex lg:items-center lg:justify-between">
 				<div class="flex items-center justify-between">
 					<a href="#" class="mx-auto ">
-						<img class="h-12 w-auto" src="./images/logo.svg" alt="Logo" />
+						<img class="h-12 w-auto" src="./images/logo.svg" alt="Logo oglo" />
 					</a>
 
 					<!-- Mobile menu button -->
@@ -87,7 +87,7 @@
 		</div>
 	</nav>
 
-	<div class="flex w-full rounded-xl justify-center">
+	<div class="flex w-full justify-center rounded-xl">
 		<div
 			class="h-[38rem]  w-11/12 rounded-xl bg-cover bg-center"
 			style="background-image: url('./images/hero.svg');"
@@ -102,20 +102,21 @@
 							<span class="text-secondary">ogłoszenia</span>
 						</h1>
 						<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-gray-200">
-							Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-							industries for previewing layouts and visual mockups.
+							Oglo - to system do zarządzania sprzedażą wielokanałową opracowany przez i dla
+							społeczności.
 						</p>
 						<div class="mx-auto mt-6 flex w-full max-w-2xl justify-center gap-2">
 							<div class="mt-3 rounded-lg sm:mt-0">
 								<button
-									class="transform rounded-xl bg-secondary px-5 py-4 text-center text-base font-medium text-white transition duration-500 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 lg:px-10"
+									class="transform rounded-xl bg-secondary px-5 py-4 text-center text-base font-medium text-white transition duration-500 ease-in-out hover:bg-primary focus:outline-none lg:px-10"
 									>Rozpoczęcie</button
 								>
 							</div>
 							<div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
-								<button
-									class="block transform items-center rounded-xl border-2 border-white px-5 py-3.5 text-center text-base font-medium text-neutral-200 shadow-md transition duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 lg:px-10"
-									>Zobacz funkcje</button
+								<a
+									href="#about"
+									class="block transform items-center rounded-xl border-2 border-white px-5 py-3.5 text-center text-base font-medium text-neutral-200 shadow-md transition duration-500 ease-in-out hover:bg-white hover:text-primary focus:outline-none  lg:px-10"
+									>Zobacz funkcje</a
 								>
 							</div>
 						</div>
