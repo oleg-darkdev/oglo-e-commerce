@@ -1,39 +1,39 @@
 <script>
 	const faqData = [
 		{
-			question: 'Lorem ipsum is placeholder',
+			question: 'Jakie edukacyjne  społeczne projekty wspieramy?',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				'44Games, Yellow elephant, 44FabLab'
+		},
+		{
+			question: 'Czym jest wasza platforma?',
+			answer:
+				'Nasza platforma łączy w sobie funkcje sklepu internetowego i automatycznej publikacji ogłoszeń na olx.'
 		},
 		{
 			question: 'Lorem ipsum is placeholder',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				''
 		},
 		{
 			question: 'Lorem ipsum is placeholder',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				''
 		},
 		{
 			question: 'Lorem ipsum is placeholder',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				''
 		},
 		{
 			question: 'Lorem ipsum is placeholder',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				''
 		},
 		{
 			question: 'Lorem ipsum is placeholder',
 			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
-		},
-		{
-			question: 'Lorem ipsum is placeholder',
-			answer:
-				'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.'
+				''
 		}
 	];
 </script>
