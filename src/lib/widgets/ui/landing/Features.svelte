@@ -6,7 +6,7 @@
 				'Każda funkcja w Oglo to dedykowane narzędzie stworzone z myślą o Twojej wygodzie i maksymalnej automatyzacji. ',
 				'Bez względu na to, czy chcesz ułatwić sobie sprzedaż na Allegro, czy Olx - zapewniamy zaawansowane rozwiązanie wspierające Twoje działania e-commerce.'
 			],
-			icon: ''
+			icon: 'template.svg'
 		},
 		{
 			title: 'Zarządzanie stanami i cenami',
@@ -14,7 +14,7 @@
 				'Brak kontroli nad stanami magazynowymi, czy cenami na poszczególnych kanałach sprzedaży - to prosta droga do ustąpienia miejsca konkurentom.',
 				'Dzisiaj jedyny sens ma zautomatyzowane zarządzanie stanami i cenami - a Oglo to narzędzie mistrzowsko przygotowane do tego zadania.'
 			],
-			icon: ''
+			icon: 'template.svg'
 		},
 		{
 			title: 'Raporty i analizy',
@@ -22,7 +22,7 @@
 				'Wzbogaciliśmy Oglo o funkcjonalności pozwalające na raporty i analizy.',
 				'W naszym systemie raporty są generowane na podstawie wszystkich danych, które trafiają na konto użytkownika.'
 			],
-			icon: ''
+			icon: 'template.svg'
 		},
 		{
 			title: 'Dbamy o dobrostan społeczności',
@@ -30,7 +30,7 @@
 				'Wspieramy materialnie i fizycznie społeczne projekty edukacyjne i organizacje non-profit.',
 				'Wybierając nasze usługi - przyczyniasz się również do pozytywnych zmian w społeczności.'
 			],
-			icon: ''
+			icon: 'template.svg'
 		}
 	];
 </script>
@@ -57,8 +57,9 @@
 
 				{#each features as feature}
 					<div class="md:-mx-4 md:flex md:items-start">
-						<span class="inline-block rounded-xl bg-secondary p-2 text-primary md:mx-4">
-							<img src="./images/features/{feature.icon}" alt="Icon of {feature.title}" />
+						<span class=" inline-block rounded-xl bg-secondary p-2 text-primary md:mx-4">
+							<!-- <img src="./images/features/{feature.icon}"  class='h-10 w-10' alt="Icon of {feature.title}" /> -->
+							<div   class='h-10 w-10'  />
 
 							<!-- <svg
 							xmlns="http://www.w3.org/2000/svg"
