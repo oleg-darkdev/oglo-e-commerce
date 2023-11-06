@@ -89,7 +89,7 @@
 
 	<div class="flex w-full justify-center rounded-xl">
 		<div
-			class="h-[38rem]  w-11/12 rounded-xl bg-cover bg-center"
+			class="h-[34rem]  w-11/12 rounded-xl bg-cover bg-center"
 			style="background-image: url('./images/hero.svg');"
 		>
 			<div class="flex h-full w-full items-center justify-center bg-violet-900/60">
