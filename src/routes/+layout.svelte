@@ -13,5 +13,7 @@
 </main>
 
 <style>
-
+	:global(.between) {
+		justify-content: space-between;
+	}
 </style>

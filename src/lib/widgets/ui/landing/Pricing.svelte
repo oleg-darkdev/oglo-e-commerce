@@ -215,8 +215,3 @@
 	</div>
 </section>
 
-<style>
-	.between {
-		justify-content: space-between;
-	}
-</style>
