@@ -1,8 +1,8 @@
-<section class="mb-12 mt-6 flex w-full justify-center">
-	<div class="max-w-2xl  overflow-hidden rounded-lg  bg-gray-800 shadow-md">
-		<img class="h-64 w-full object-cover" src="" alt="Community image" />
+<a name="сommunity" />
 
-		<a name="сommunity" />
+<section class="mb-12 mt-6 flex w-full justify-center">
+	<div class="max-w-2xl  overflow-hidden rounded-lg  bg-primary shadow-md">
+		<img class="h-64 w-full object-cover bg-white" src="./images/сommunity.svg" alt="Community image" />
 
 		<div class="p-6">
 			<div>
@@ -13,7 +13,7 @@
 					tabindex="0"
 					role="link">Lorem ipsum dolor sit amet, consectetur.</a
 				>
-				<p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+				<p class="mt-2 text-sm text-gray-400">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie parturient et sem ipsum
 					volutpat vel. Natoque sem et aliquam mauris egestas quam volutpat viverra. In pretium nec
 					senectus erat. Et malesuada lobortis.
@@ -28,7 +28,7 @@
 							>Oleg Medvedev</a
 						>
 					</div>
-					<span class="mx-1 text-xs text-gray-600 dark:text-gray-300">3 Listopada 2023</span>
+					<span class="mx-1 text-xs text-gray-300">3 Listopada 2023</span>
 				</div>
 			</div>
 		</div>
