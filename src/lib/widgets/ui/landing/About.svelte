@@ -29,11 +29,11 @@
 		<div class="prose-primary prose mx-auto flex w-full max-w-3xl flex-col text-left">
 			<div class="mx-auto w-full ">
 				<h1 class="text-primary">Stworzony z myślą o małych przedsiębiorcach i społeczności.</h1>
-				<h2 class="text-violet-800">Lorem ipsum is placeholder text commonly used.</h2>
+				<!-- <h2 class="text-violet-800">Lorem ipsum is placeholder text commonly used.</h2>
 				<p class="text-violet-800">
 					Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
 					industries for previewing layouts and visual mockups.
-				</p>
+				</p> -->
 			</div>
 		</div>
 
