@@ -40,8 +40,8 @@
 	const basicInclude = ['Nielimitowani użytkownicy', 'Wszystkie języki'];
 </script>
 
-<section class="relative z-30 -my-8 ml-20 w-8/12 rounded-xl bg-[#330066]">
-	<div class="relative mx-auto w-full max-w-7xl items-center py-24 md:px-12 lg:px-16">
+<section class="relative z-30 -my-8 lg:ml-20 md:ml-20  lg:w-8/12 md:w-10/12 w-full lg:rounded-xl md:rounded-xl bg-[#330066]">
+	<div class="relative mx-auto w-full max-w-7xl items-center lg:py-24 md:py-24  py-8 md:px-12 lg:px-16">
 		<div class="mx-auto flex w-full flex-wrap items-start justify-center gap-4 px-5 lg:px-0">
 			<div class="w-full md:text-center lg:w-2/6 lg:text-left xl:w-1/3">
 				<a name="price" />

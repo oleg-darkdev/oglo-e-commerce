@@ -40,7 +40,7 @@
 		<div class="mx-auto my-10 flex max-w-5xl flex-col items-center  pb-10 ">
 			{#each aboutUsText as text}
 				<div
-					class="mx-auto my-6 flex between  w-full items-center border-b border-primary pb-10 sm:flex-row"
+					class="mx-auto my-6 flex between  w-full items-center border-b border-primary pb-10 flex-col lg:flex-row"
 				>
 					<!-- <div
 						class="inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gray-50 text-primary sm:mr-10"

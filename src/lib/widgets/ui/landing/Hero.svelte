@@ -25,6 +25,8 @@
 			anchor: 'contact'
 		}
 	];
+
+	let showNav = false;
 </script>
 
 <header>
@@ -39,46 +41,47 @@
 					<!-- Mobile menu button -->
 					<div class="flex lg:hidden">
 						<button
-							x-cloak
+							on:click={() => (showNav = !showNav)}
 							type="button"
-							class=" text-gray-200 hover:text-gray-400 focus:text-gray-400 focus:outline-none"
+							class=" text-secondary gray-200 hover:text-gray-400 focus:text-gray-400 focus:outline-none"
 							aria-label="toggle menu"
 						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-6 w-6"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
-							</svg>
-
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-6 w-6"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-							</svg>
+							{#if !showNav}
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-6 w-6"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+								</svg>
+							{:else}
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-6 w-6"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+								</svg>
+							{/if}
 						</button>
 					</div>
 				</div>
 				<!-- :class="translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"  -->
 				<!-- Mobile Menu open: "block", Menu closed: "hidden" -->
 				<div
-					x-cloak
-					class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-gray-900 lg:relative lg:top-0 lg:mt-0 lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent"
+					class="absolute inset-x-0 {showNav ? 'py-6' : ''}  z-20 w-full px-6  shadow-md transition-all duration-300 ease-in-out bg-primary lg:relative lg:top-0 lg:mt-0 lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent"
 				>
-					<div class="-mx-4 lg:flex lg:items-center">
+					<div class="-mx-4 {showNav ? '' : 'hidden'} lg:flex lg:items-center">
 						{#each links as link}
 							<a
 								href="#{link.anchor}"
-								class="mx-4 block capitalize text-gray-200 hover:text-secondary">{link.text}</a
+								class="mx-4 mb-2 block capitalize text-gray-200 hover:text-secondary">{link.text}</a
 							>
 						{/each}
 					</div>

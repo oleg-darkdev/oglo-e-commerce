@@ -3,7 +3,7 @@
 
 <a name="сommunity" />
 
-<section class="mb-12 mt-6 flex w-full justify-center">
+<section class="mb-12 px-2 mt-6 flex w-full justify-center">
 	<div class="max-w-2xl  overflow-hidden rounded-lg  bg-primary shadow-md">
 		<img
 			class="h-64 w-full bg-white object-cover"
