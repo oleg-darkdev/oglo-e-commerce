@@ -5,7 +5,7 @@
 <footer class="bg-primary">
 	<div class="container mx-auto px-6 py-8">
 		<div class="flex flex-col items-center text-center">
-			<a href="#">
+			<a href="/">
 				<img class="h-40 w-auto" src="./images/logo.svg" alt="Logo oglo" />
 			</a>
 
@@ -48,7 +48,7 @@
 
 			<div class="-mx-2 mt-3 flex sm:mt-0">
 				<!-- <a
-					href="#"
+					href="/"
 					class="mx-2 text-sm  text-secondary transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>
@@ -56,7 +56,7 @@
 				</a> -->
 
 				<a
-					href="#"
+					href="/"
 					class="mx-2 text-sm  text-secondary transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>
@@ -64,7 +64,7 @@
 				</a>
 
 				<a
-					href="#"
+					href="/"
 					class="hover: mx-2 text-sm text-gray-500 text-secondary transition-colors duration-300 dark:hover:text-gray-300"
 					aria-label="Reddit"
 				>

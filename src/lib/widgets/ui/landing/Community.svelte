@@ -3,7 +3,7 @@
 
 <a name="сommunity" />
 
-<section class="mb-12 px-2 mt-6 flex w-full justify-center">
+<section class="mb-12 mt-6 flex w-full justify-center px-2">
 	<div class="max-w-2xl  overflow-hidden rounded-lg  bg-primary shadow-md">
 		<img
 			class="h-64 w-full bg-white object-cover"
@@ -20,7 +20,7 @@
 					Społecznie odpowiedzialna platforma dla biznesu.
 				</p>
 
-				<a href="#" class="" role="link" target="_blank" />
+				<a href="/" class="" role="link" target="_blank" />
 				<p class="mt-2 text-sm text-gray-400">
 					Oglo to platforma, która nie tylko upraszcza proces publikowania ogłoszeń na popularnych
 					serwisach, takich jak <a

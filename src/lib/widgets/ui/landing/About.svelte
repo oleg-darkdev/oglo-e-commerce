@@ -4,13 +4,13 @@
 			title: 'Automatyczna publikacja ogłoszeń',
 			desc: 'Obecnie skupiamy się na platformach na OLX i Allegro oraz na Instagramie i Facebooku.',
 			icon: '',
-			link: ''
+			link: '/'
 		},
 		{
 			title: 'Przystępne i elastyczne ceny',
 			desc: 'Oferujemy które pomogą Ci osiągnąć cele bez nadmiernych kosztów.',
 			icon: '',
-			link: '#prices'
+			link: '#price'
 		},
 		{
 			title: 'Dobry ceł i głęboką filozofią.',

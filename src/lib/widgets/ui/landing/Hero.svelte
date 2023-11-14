@@ -2,27 +2,27 @@
 	const links = [
 		{
 			text: 'Główna',
-			anchor: 'home'
+			anchor: '/'
 		},
 		{
 			text: 'O nas',
-			anchor: 'about'
+			anchor: '#about'
 		},
 		{
 			text: 'Ceny',
-			anchor: 'price'
+			anchor: '#price'
 		},
 		{
 			text: 'Społeczność',
-			anchor: 'сommunity'
+			anchor: '#сommunity'
 		},
 		{
 			text: 'F.A.Q.',
-			anchor: 'faq'
+			anchor: '#faq'
 		},
 		{
 			text: 'Contact',
-			anchor: 'contact'
+			anchor: '#contact'
 		}
 	];
 
@@ -34,7 +34,7 @@
 		<div class="container mx-auto px-6 py-4">
 			<div class="lg:flex lg:items-center lg:justify-between">
 				<div class="flex items-center justify-between">
-					<a href="#" class="mx-auto ">
+					<a href="/" class="mx-auto ">
 						<img class="h-12 w-auto" src="./images/logo.svg" alt="Logo oglo" />
 					</a>
 
@@ -43,7 +43,7 @@
 						<button
 							on:click={() => (showNav = !showNav)}
 							type="button"
-							class=" text-secondary gray-200 hover:text-gray-400 focus:text-gray-400 focus:outline-none"
+							class=" gray-200 text-secondary hover:text-gray-400 focus:text-gray-400 focus:outline-none"
 							aria-label="toggle menu"
 						>
 							{#if !showNav}
@@ -75,12 +75,14 @@
 				<!-- :class="translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"  -->
 				<!-- Mobile Menu open: "block", Menu closed: "hidden" -->
 				<div
-					class="absolute inset-x-0 {showNav ? 'py-6' : ''}  z-20 w-full px-6  shadow-md transition-all duration-300 ease-in-out bg-primary lg:relative lg:top-0 lg:mt-0 lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent"
+					class="absolute inset-x-0 {showNav
+						? 'py-6'
+						: ''}  z-20 w-full bg-primary  px-6 shadow-md transition-all duration-300 ease-in-out lg:relative lg:top-0 lg:mt-0 lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent"
 				>
 					<div class="-mx-4 {showNav ? '' : 'hidden'} lg:flex lg:items-center">
 						{#each links as link}
 							<a
-								href="#{link.anchor}"
+								href="{link.anchor}"
 								class="mx-4 mb-2 block capitalize text-gray-200 hover:text-secondary">{link.text}</a
 							>
 						{/each}
